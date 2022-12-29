@@ -14,9 +14,6 @@
 <b>Price: </b>${product.price}<br>
 <b>City: </b>${product.city}<br>
 <b>Author: </b>${product.author}<br>
-<hr>
-<form action="/product/delete/${product.id}" method="post">
-    <input type="submit" value="Delete product"/>
-</form>
+<b>Phone Number: </b>${product.user.phoneNumber}<br>
 </body>
 </html>

@@ -59,7 +59,7 @@ public class Product {
     private LocalDateTime dateOfCreated;
 
 
-    /** метод инициализации времени создании товара*/
+    /** Метод инициализации времени создании товара*/
     @PrePersist
     private void init() {
         dateOfCreated = LocalDateTime.now();
